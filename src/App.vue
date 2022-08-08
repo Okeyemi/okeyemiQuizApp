@@ -45,7 +45,7 @@
   :disabled="!getCurrentQuestion.selected">
   {{
     getCurrentQuestion.index==questions.length -1
-    ? 'Finish'
+    ? 'Finish'@click=alert('Thank You! Powered by Okeyemi Creative')
     : 'NextQuestion'
   }}
   </button>

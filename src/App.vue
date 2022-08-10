@@ -58,7 +58,7 @@
     <p>Your score is {{score}} / {{ questions.length }}</p>
     <footer class="about">
       <P>Powered by OKEYEMI CREATIVE <br>
-      <a href="okeyemitunde@gmail.com">okeyemitunde@gmail.com</a></P>
+      <a href="mailto:okeyemitunde@gmail.com">Contact Us</a></P>
     </footer>
   </section>
  

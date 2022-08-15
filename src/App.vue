@@ -93,11 +93,11 @@ export default defineComponent({
       selected:null
     },
     {
-      question:'what is vue js?',
+      question:'what is Vue Router?',
       answer:1,
       options:[
         'A front end framework',
-        'A library',
+        'A Routing library for vue',
         'An ice Cream maker'
       ],
     selected:null

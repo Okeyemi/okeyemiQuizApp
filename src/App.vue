@@ -94,7 +94,7 @@ export default defineComponent({
     },
     {
       question:'what is vue js?',
-      answer:1,
+      answer:0,
       options:[
         'A front end framework',
         'A library',

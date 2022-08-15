@@ -100,7 +100,8 @@ export default defineComponent({
         'A library',
         'An ice Cream maker'
       ],
-    }
+    selected:null
+    },
     ])
     const quizCompleted=ref(false)
     const currentQuestion=ref(0)

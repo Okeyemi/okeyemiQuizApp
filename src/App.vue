@@ -94,25 +94,29 @@ export default defineComponent({
     },
     {
       question:'what is vue js?',
-      answer:0,
+      answer:1,
       options:[
         'A front end framework',
         'A library',
         'An ice Cream maker'
       ],
     selected:null
-    },
+    }
+
     ])
     const quizCompleted=ref(false)
     const currentQuestion=ref(0)
     const score = computed( () => {
       let value=0
       questions.value.map(q=>{
-        if(q.selected != null && q.answer==q.selected) 
+        if(q.selected != null && q.answer==q.selected) {
+          console.log('correct');
         value++
-        }
-      })
-      return value
+       }
+      }}
+
+    return value
+
     })
     const getCurrentQuestion = computed(()=>{
       let question=questions.value[currentQuestion.value]
